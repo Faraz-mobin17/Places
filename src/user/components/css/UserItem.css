@@ -12,14 +12,14 @@
   text-decoration: none;
   padding: 1rem;
   color: white;
-  background: #292929;
+  background: #0c134f;
   transition: 0.3s ease;
   border-radius: 6px;
 }
 
 .user-item a:hover,
 .user-item a:active {
-  background: #ffd900;
+  background: #5c469c;
 }
 
 .user-item__content {
@@ -43,7 +43,7 @@
 .user-item:active h2,
 .user-item:hover h3,
 .user-item:active h3 {
-  color: #292929;
+  color: #fff;
 }
 
 .user-item__info h3 {

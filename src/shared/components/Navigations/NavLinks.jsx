@@ -5,16 +5,18 @@ export const NavLinks = (props) => {
   return (
     <ul className="nav-links">
       <li>
-        <NavLink to="/">All Users</NavLink>
+        <NavLink to="/" exact>
+          All Users
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/">My Places</NavLink>
+        <NavLink to="/user1/places">My Places</NavLink>
       </li>
       <li>
-        <NavLink to="/">Add Places</NavLink>
+        <NavLink to="/places/new">Add Places</NavLink>
       </li>
       <li>
-        <NavLink to="/">Authenticate</NavLink>
+        <NavLink to="/auth">Authenticate</NavLink>
       </li>
     </ul>
   );
